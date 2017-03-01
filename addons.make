@@ -1,0 +1,4 @@
+ofxARtoolkitPlus
+ofxCv
+ofxGui
+ofxOpenCv
