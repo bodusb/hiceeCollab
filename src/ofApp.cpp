@@ -2,17 +2,21 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+	
+	ofSetLogLevel(OF_LOG_VERBOSE);
 
+
+	hicee.setup();
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-
+	hicee.update();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+	hicee.draw();
 }
 
 //--------------------------------------------------------------
@@ -22,7 +26,16 @@ void ofApp::keyPressed(int key){
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
-
+	switch (key)
+	{
+	case 'g':
+	case 'G': {
+		hicee.isGUIEnabled() == true ? hicee.enableGUI(false) : hicee.enableGUI(true);
+		break;
+	}
+	default:
+		break;
+	}
 }
 
 //--------------------------------------------------------------

@@ -94,44 +94,38 @@
     <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp">
       <Filter>addons\ofxOpenCv\src</Filter>
     </ClCompile>
-    <ClCompile Include="src\Artifact\ArtifactButton.cpp">
-      <Filter>src\Artifact</Filter>
+    <ClCompile Include="src\CollabController\DataController.cpp">
+      <Filter>src\CollabController</Filter>
     </ClCompile>
-    <ClCompile Include="src\Artifact\ArtifactContent.cpp">
-      <Filter>src\Artifact</Filter>
+    <ClCompile Include="src\CollabController\HICEEController.cpp">
+      <Filter>src\CollabController</Filter>
     </ClCompile>
-    <ClCompile Include="src\Artifact\ArtifactContentMode.cpp">
-      <Filter>src\Artifact</Filter>
+    <ClCompile Include="src\CollabController\Aura\Aura.cpp">
+      <Filter>src\CollabController\Aura</Filter>
     </ClCompile>
-    <ClCompile Include="src\Artifact\ArtifactMove.cpp">
-      <Filter>src\Artifact</Filter>
+    <ClCompile Include="src\CollabController\TrackingController.cpp">
+      <Filter>src\CollabController</Filter>
     </ClCompile>
-    <ClCompile Include="src\Artifact\PhysicalArtifact.cpp">
-      <Filter>src\Artifact</Filter>
+    <ClCompile Include="src\CollabController\Artifact.cpp">
+      <Filter>src\CollabController</Filter>
     </ClCompile>
-    <ClCompile Include="src\Artifact\ActionPoint.cpp">
-      <Filter>src\Artifact</Filter>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings\src</Filter>
     </ClCompile>
-    <ClCompile Include="src\Artifact\BigPicture.cpp">
-      <Filter>src\Artifact\Modes</Filter>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
     </ClCompile>
-    <ClCompile Include="src\Artifact\Share.cpp">
-      <Filter>src\Artifact\Modes</Filter>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
     </ClCompile>
-    <ClCompile Include="src\Artifact\Token.cpp">
-      <Filter>src\Artifact\Modes</Filter>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
     </ClCompile>
-    <ClCompile Include="src\Artifact\ContinuousUI.cpp">
-      <Filter>src\Artifact\Modes</Filter>
+    <ClCompile Include="src\CollabController\Data\Data.cpp">
+      <Filter>src\CollabController\Data</Filter>
     </ClCompile>
-    <ClCompile Include="src\Artifact\DiscreteUI.cpp">
-      <Filter>src\Artifact\Modes</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Artifact\Interface.cpp">
-      <Filter>src\Artifact\Modes</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Artifact\Nothing.cpp">
-      <Filter>src\Artifact\Modes</Filter>
+    <ClCompile Include="src\CollabController\ArtfButton.cpp">
+      <Filter>src\CollabController</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -285,11 +279,23 @@
     <Filter Include="addons\ofxOpenCv\libs\opencv\include\opencv2\videostab">
       <UniqueIdentifier>{D4F01CB4-61E3-5965-F3B1-CFB9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\Artifact">
-      <UniqueIdentifier>{e8d17766-4b6f-4fe6-bdd9-59161096cf8d}</UniqueIdentifier>
+    <Filter Include="src\CollabController">
+      <UniqueIdentifier>{f7eee760-82c4-406f-88ca-6bcbdda48c60}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\Artifact\Modes">
-      <UniqueIdentifier>{c85cc67a-17a4-43e2-9aa4-5d6b0a8e40c9}</UniqueIdentifier>
+    <Filter Include="src\CollabController\Aura">
+      <UniqueIdentifier>{894f26e2-62d3-489a-84ba-90d0f6359ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\CollabController\Data">
+      <UniqueIdentifier>{5c9994e7-1623-4679-b66a-e5bcb4f3c5a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{c752ccf9-e38d-402e-86a1-4caefa500ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{bc3311da-f42a-4e8f-b7ec-40f4d88e8286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\libs">
+      <UniqueIdentifier>{9fce2dba-741e-45b6-a071-c5135b2b13c1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -926,44 +932,32 @@
     <ClInclude Include="..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\videostab\videostab.hpp">
       <Filter>addons\ofxOpenCv\libs\opencv\include\opencv2\videostab</Filter>
     </ClInclude>
-    <ClInclude Include="src\Artifact\ArtifactButton.h">
-      <Filter>src\Artifact</Filter>
+    <ClInclude Include="src\CollabController\DataController.h">
+      <Filter>src\CollabController</Filter>
     </ClInclude>
-    <ClInclude Include="src\Artifact\ArtifactContent.h">
-      <Filter>src\Artifact</Filter>
+    <ClInclude Include="src\CollabController\HICEEController.h">
+      <Filter>src\CollabController</Filter>
     </ClInclude>
-    <ClInclude Include="src\Artifact\ArtifactContentMode.h">
-      <Filter>src\Artifact</Filter>
+    <ClInclude Include="src\CollabController\Aura\Aura.h">
+      <Filter>src\CollabController\Aura</Filter>
     </ClInclude>
-    <ClInclude Include="src\Artifact\ArtifactMove.h">
-      <Filter>src\Artifact</Filter>
+    <ClInclude Include="src\CollabController\TrackingController.h">
+      <Filter>src\CollabController</Filter>
     </ClInclude>
-    <ClInclude Include="src\Artifact\PhysicalArtifact.h">
-      <Filter>src\Artifact</Filter>
+    <ClInclude Include="src\CollabController\Artifact.h">
+      <Filter>src\CollabController</Filter>
     </ClInclude>
-    <ClInclude Include="src\Artifact\ActionPoint.h">
-      <Filter>src\Artifact</Filter>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings\src</Filter>
     </ClInclude>
-    <ClInclude Include="src\Artifact\BigPicture.h">
-      <Filter>src\Artifact\Modes</Filter>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
     </ClInclude>
-    <ClInclude Include="src\Artifact\Token.h">
-      <Filter>src\Artifact\Modes</Filter>
+    <ClInclude Include="src\CollabController\Data\Data.h">
+      <Filter>src\CollabController\Data</Filter>
     </ClInclude>
-    <ClInclude Include="src\Artifact\Share.h">
-      <Filter>src\Artifact\Modes</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Artifact\Interface.h">
-      <Filter>src\Artifact\Modes</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Artifact\ContinuousUI.h">
-      <Filter>src\Artifact\Modes</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Artifact\DiscreteUI.h">
-      <Filter>src\Artifact\Modes</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Artifact\Nothing.h">
-      <Filter>src\Artifact\Modes</Filter>
+    <ClInclude Include="src\CollabController\ArtfButton.h">
+      <Filter>src\CollabController</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
